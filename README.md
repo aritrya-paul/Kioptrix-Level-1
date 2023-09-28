@@ -205,9 +205,11 @@ I set the RHOSTS to 192.168.13.131 and the RPORT to 139 which is for the target 
 
 Next, I set the PAYLOAD to handle the session by the command : 
 
-        set payload linux/x86/shell_bind_tcp 
+     set payload linux/x86/shell_bind_tcp 
 
 By this I got access to the command shell of the target machine.
+
+
 
 
 
