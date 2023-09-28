@@ -197,6 +197,19 @@ STEP 5 - Now, to see the available modules in metasploit of Samba by the command
 
              search samba 
 
+![search samba](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/ede8a97d-2fec-4a79-882e-e2ee0e51341c)
+
+I have used **exploit/linux/samba/trans2open** module whose rank is excellent. By typing **info** I get to know that the module requires only **RHOSTS** and **RPORT**.
+
+I set the RHOSTS to 192.168.13.131 and the RPORT to 139 which is for the target TCP port and finally to exploit.
+
+Next, I set the PAYLOAD to handle the session by the command : 
+
+        set payload linux/x86/shell_bind_tcp 
+
+By this I got access to the command shell of the target machine.
+
+
 
 
 
