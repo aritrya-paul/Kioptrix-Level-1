@@ -173,7 +173,7 @@ From the above output we can see that the process is running in netbios-ssn Samb
 
 **STEP 3** - I have used searchsploit on openssh 2.9 and Apache 1.2.30 by the command : 
 
-searchsploit openssh 2.9
+                                searchsploit openssh 2.9
 
 
 
