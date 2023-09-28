@@ -209,6 +209,9 @@ Next, I set the PAYLOAD to handle the session by the command :
 
 By this I got access to the command shell of the target machine.
 
+![exploit](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/2e7d8d49-fb7c-45db-bbeb-c79201a37f76)
+
+Here, I typed **whoami** to know the root and **/bin/bash -i** to get the terminal of the kioptrix.
 
 
 
