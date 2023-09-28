@@ -186,6 +186,16 @@ Again,
 
            Searchsploit Apache 1.3.20 
 
+![searchsploit Apache](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/59640a9f-e530-476d-8fcf-cc35e311afd0)
+
+Here, I found 2 exploits of version 1.3.20 but both are for windows. So, this will also not be the case because our target machine platform is linux based.
+
+STEP 4 - By this I came to understand that our next exploitation will be on Samba. For this I have used Metasploit Framework. To access Metasploit in Kali Linux type :
+
+             msfconsole
+STEP 5 - Now, to see the available modules in metasploit of Samba by the command : 
+
+             search samba 
 
 
 
