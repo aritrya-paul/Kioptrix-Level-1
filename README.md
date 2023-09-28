@@ -176,7 +176,7 @@ From the above output we can see that the process is running in netbios-ssn Samb
 
 **STEP 3** - I have used searchsploit on openssh 2.9 and Apache 1.2.30 by the command : 
 
-             searchsploit openssh 2.9
+           searchsploit openssh 2.9
 
 ![searchsploit openssh](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/c2f51931-ab58-4c9f-839e-5e1db66208d1)
 
@@ -184,7 +184,7 @@ But there was many exploits but not in any specific version which is openssh 2.9
 
 Again, 
 
-            Searchsploit Apache 1.3.20 
+           Searchsploit Apache 1.3.20 
 
 
 
