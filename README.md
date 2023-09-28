@@ -157,6 +157,27 @@ Nmap done: 1 IP address (1 host up) scanned in 31.99 seconds
 
 
 
+Here, To start with HTTP/S. We have both the ports open. **Port 80** is for **http** and **port 443** for **https**. Other findings : 
+1] Apache/1.3.20 (Unix)
+2] mod_ssl/2.8.4
+3] OpenSSL/0.9.6b
+
+I have also got the **Samba port:139**.
+
+I have also got **port 22: the SSH port**. Other findings : 
+1] OpenSSH 2.9p2 (protocol 1.99)
+2] Sshv1: Server support SSHv1
+
+From the above output we can see that the process is running in netbios-ssn Samba but no exact version is described.
+
+
+**STEP 3** - I have used searchsploit on openssh 2.9 and Apache 1.2.30 by the command : 
+
+searchsploit openssh 2.9
+
+
+
+
 
                                    
 
