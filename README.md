@@ -23,7 +23,7 @@ To check it we can type the command : **enum4linux 192.168.13.131** which shows 
 
 ![nmap](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/b0a57d33-3e35-41d7-aa30-7fa7605fd588)
 
-*-sS is for TCP SYN scan
+*-sS is for TCP SYN scan <br>
 *-A Decets OS and Services
 
 I have done a bit more recon and enumeration this time. So, I have done a more thorough scan. So, I have used the command : 
