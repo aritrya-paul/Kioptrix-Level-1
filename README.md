@@ -13,8 +13,17 @@ My Setup :
 
 ![netdiscover](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/34acb7c8-6efd-44bd-9561-acd384fb4b99)
 
-So, the IP of the host is 192.168.13.131. 
-To check it we can type the command : enum4linux 192.168.13.131 which shows the information about the target.
+So, the IP of the host is **192.168.13.131** . 
+To check it we can type the command : **enum4linux 192.168.13.131** which shows the information about the target.
+
+![enum4linux](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/06d7cd18-05bd-40cc-ac60-3c3ee9f1b616)
+
+**STEP 2** - I have used Nmap to run a fast/aggression scan over the network. To do so I have used the command : 
+                                   ** nmap -sS -A 192.168.13.131**
+
+                                   
+
+
 
 
 
