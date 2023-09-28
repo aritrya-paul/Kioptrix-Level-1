@@ -9,6 +9,8 @@ My Setup :
 2) Another VM running Kioptrix
 3) Both has NAT type Network Adapter
 
+
+
 **STEP 1** - First to check the hosts running on our IP address with the shell command : 
             
             netdiscover
@@ -19,6 +21,8 @@ So, the IP of the host is **192.168.13.131** .
 To check it we can type the command : **enum4linux 192.168.13.131** which shows the information about the target.
 
 ![enum4linux](https://github.com/aritrya-paul/Kioptrix-Level-1/assets/129430524/06d7cd18-05bd-40cc-ac60-3c3ee9f1b616)
+
+
 
 **STEP 2** - I have used Nmap to run a fast/aggression scan over the network. To do so I have used the command : 
 
@@ -174,6 +178,7 @@ I have also got **port 22: the SSH port**. Other findings :
 From the above output we can see that the process is running in netbios-ssn Samba but no exact version is described.
 
 
+
 **STEP 3** - I have used searchsploit on openssh 2.9 and Apache 1.2.30 by the command : 
 
            searchsploit openssh 2.9
@@ -190,9 +195,14 @@ Again,
 
 Here, I found 2 exploits of version 1.3.20 but both are for windows. So, this will also not be the case because our target machine platform is linux based.
 
+
+
 STEP 4 - By this I came to understand that our next exploitation will be on Samba. For this I have used Metasploit Framework. To access Metasploit in Kali Linux type :
 
              msfconsole
+
+
+             
 STEP 5 - Now, to see the available modules in metasploit of Samba by the command : 
 
              search samba 
